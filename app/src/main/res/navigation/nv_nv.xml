@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nv_nv"
+    app:startDestination="@id/principleFragment">
+
+    <fragment
+        android:id="@+id/principleFragment"
+        android:name="kia.example.min_projet.PrincipleFragment"
+        android:label="PrincipleFragment" >
+        <action
+            android:id="@+id/action_principleFragment_to_scondFragment"
+            app:destination="@id/scondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scondFragment"
+        android:name="kia.example.min_projet.ScondFragment"
+        android:label="ScondFragment" >
+        <argument
+            android:name="article"
+            app:argType="kia.example.min_projet.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="kia.example.min_projet.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_self"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_favDeatailsFragment"
+            app:destination="@id/favDeatailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favDeatailsFragment"
+        android:name="kia.example.min_projet.favDeatailsFragment"
+        android:label="fragment_fav_deatails"
+        tools:layout="@layout/fragment_fav_deatails" >
+        <argument
+            android:name="article1"
+            app:argType="kia.example.min_projet.Article1" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="kia.example.min_projet.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_scondFragment"
+            app:destination="@id/scondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="kia.example.min_projet.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+</navigation>

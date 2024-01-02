@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82093505804",
+    "project_id": "mini-login-26c97",
+    "storage_bucket": "mini-login-26c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82093505804:android:1138071ce376f285b05d29",
+        "android_client_info": {
+          "package_name": "kia.example.min_projet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHX_dIWeqoBrQd0pyKFBO3gXHq3Eo044"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
