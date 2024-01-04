@@ -51,9 +51,4 @@
             android:id="@+id/action_searchFragment_to_scondFragment"
             app:destination="@id/scondFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/blankFragment"
-        android:name="kia.example.min_projet.BlankFragment"
-        android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" />
 </navigation>

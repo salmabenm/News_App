@@ -27,7 +27,9 @@ class favDeatailsFragment : Fragment() {
 
 
             binding.textTitle.text = receivedArticle.title
+            binding.source.text=receivedArticle.source
 
+            binding.publ.text=receivedArticle.publishedAt
             binding.detail.text = receivedArticle.description
             binding.content.text = receivedArticle.content
 
