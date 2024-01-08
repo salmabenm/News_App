@@ -7,7 +7,6 @@
 
     <style name="Theme.Min_projet" parent="Base.Theme.Min_projet">
 
-
-
     </style>
+    <style name="backgroundc"><item name="backgroundTint">@color/black</item></style>
 </resources>

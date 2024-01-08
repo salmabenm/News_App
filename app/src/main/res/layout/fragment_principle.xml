@@ -45,11 +45,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
-
-                    android:backgroundTint="#000000"
+                    style="@style/backgroundc"
+                    android:textSize="24sp"
                     android:fontFamily="cursive"
                     android:text="business"
-                    android:textSize="24sp" />
+                    />
 
                 <Button
                     android:id="@+id/entertainment"
@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:text="entertainment"
-                    android:backgroundTint="#000000"
+                    style="@style/backgroundc"
                     android:textSize="24sp"
                     android:fontFamily="cursive"/>
 
@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:text="general"
-                    android:backgroundTint="#000000"
+                    style="@style/backgroundc"
                     android:textSize="24sp"
                     android:fontFamily="cursive"/>
 
@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:text="science"
-                    android:backgroundTint="#000000"
+                    style="@style/backgroundc"
                     android:textSize="24sp"
                     android:fontFamily="cursive"/>
 
@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:text="sports"
-                    android:backgroundTint="#000000"
+                    style="@style/backgroundc"
                     android:textSize="24sp"
                     android:fontFamily="cursive"/>
 
@@ -107,7 +107,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:text="technology"
-                    android:backgroundTint="#000000"
+                    style="@style/backgroundc"
                     android:textSize="24sp"
                     android:fontFamily="cursive"/>
 
@@ -127,4 +127,3 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
-

@@ -25,7 +25,7 @@ class Requestmanger(var context:Context) {
         query: String?
     ) {
         val callnew = retrofit.create(callNewsapi::class.java)
-        val call=callnew.getNews("us",category,query,"e5f6a818a613416095a9c2be8658df0b")
+        val call=callnew.getNews("in",category,query,"6d625c6aa62a459f95bce7d311d9edb7")
         call.enqueue(object : Callback<apinews> {
                 override fun onResponse(call: Call<apinews>, response: Response<apinews>) {
                     if (response.isSuccessful) {
